@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 1440px;
+    height: 80px;
+    padding: 0 10%;
+    background: #297330; 
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    /* Contact */
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+letter-spacing: -0.5px;
+
+color: #DEDEDE;
+text-decoration: none;
+margin-right: 30px;
+}
+
+nav{
+    margin-right: 100px;
+}
+
+.logo{
+    color: #DEDEDE;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+button {
+background-color: #297330;
+color: white;
+text-align: center;
+display: inline-block;
+border: none;
+font-size: 16px;
+margin: 4px 2px;
+padding: 15px 62px;
+cursor: pointer;
+}
+
+.row {
+    display: flex;
+    justify-content: center; align-items:center ;
+    gap: 50px;
+  }
+  
+.column {
+    display: flex;
+    flex-direction: column;
+  }
+.column img{
+    display: inline-block;
+    width: 400px;
+    height: 600px;
+    object-fit: contain;
+}
+
+.column2 img {
+    align-items: center;
+    width: 200px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.row2 {
+    display: inline-block;
+    align-items:center;
+    object-fit: contain;
+  }
+
+.profil{
+    position: relative; top:-10px;
+    position: relative; right:-1000px;
+}
+
+.p{
+    display: flex;
+    align-items:center;
+}
+
+.kontakt1{
+    display: flex;
+    align-items:center;
+}
+.kontakt2{
+    display: flex;
+    align-items:center;
+}
